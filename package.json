@@ -1,0 +1,24 @@
+{
+  "name": "subscription-tracker",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "@upstash/workflow": "^0.2.8",
+    "bcryptjs": "^3.0.1",
+    "cookie-parser": "~1.4.4",
+    "dayjs": "^1.11.13",
+    "debug": "~2.6.9",
+    "dotenv": "^16.4.7",
+    "express": "~4.16.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.13.0",
+    "mongoose": "^8.10.1",
+    "morgan": "~1.9.1",
+    "nodemon": "^3.1.9"
+  }
+}
